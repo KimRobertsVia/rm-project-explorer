@@ -1,5 +1,7 @@
 # Project Explorer
 
+![Project Explorer Screenshot](docs/images/rm-project-explorer.png)
+
 ## Generating Project Data
 
 The application reads ridership modeling data from S3 buckets. Data is generated using a Remix rake task called `dump_ridership_modeling_results` that exports all completed ridership modeling jobs to S3 in JSON format.
